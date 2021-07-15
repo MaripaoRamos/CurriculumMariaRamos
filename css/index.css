@@ -1,0 +1,38 @@
+@import './css/button.css';
+@import './css/header.css';
+@import './css/button-icons.css';
+@import './css/hero.css';
+@import './css/wrapper.css';
+@import './css/menu.css';
+@import "./css/coment.css";
+@import "./css/testimony.css";
+@import "./css/project.css";
+@import "./css/social.css";
+@import "./css/footer.css";
+@import "./css/form.css";
+@import "./css/tittle.css";
+
+:root{
+    --gradient:radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --baseFont:'Poppins', sans-serif;
+    --headline1:bold 95px/153.71px var(--baseFont);
+    --headline2:bold 59px/95.46px var(--baseFont);
+    --headline3:bold 48px/77.66px var(--baseFont);
+    --headline4:bold 34px/55.01px var(--baseFont);
+    --headline5:bold 24px/38.83px var(--baseFont);
+    --Body1:normal 16px/25.89px var(--baseFont);
+    --Body2:normal 14px/22.65px var(--baseFont);
+    --Button:bold 14px/22.65px var(--baseFont);
+    --Caption:normal 12px/19.42px var(--baseFont);
+    --purple:#310A90;
+    --green:#42E2B8;
+    --white:#FFFFFF;
+}
+body{
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--Caption) ;
+   color: var(--purple);
+   margin: 0;
+}
+

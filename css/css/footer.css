@@ -1,0 +1,37 @@
+.footer-content{
+   color: var(--white);
+   text-align: center;
+}
+.footer .social{
+justify-content: center;
+}
+.footer-logo{
+    display: none;
+}
+@media screen and (min-width:768px) {
+   .footer-content{
+       /* border: 1px solid red ; */
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .footer-logo{
+        display:block;/*Para que ahora si aparezca el elemento */
+    }
+    .footer .social{
+        /* border: 1px solid red ; */
+        order: 3;
+        padding: 0;
+    }
+}
+@media screen and (min-width:1024px) {
+    .footer-copyright{
+        /* border: 1px solid blue; */
+        display: flex;
+        gap: 8px;/*asi ponemos espacio entre los parrafos */
+    }
+    .footer{
+    margin-block-end: 40px;
+    margin-block-start: 40px;
+    }
+}

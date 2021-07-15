@@ -1,0 +1,13 @@
+header{
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);/*Para que cuando pasemos sobre un elemento se ponga transparente*/
+    /* border:5px solid brown; */
+}
+.header-content{
+    /* border:5px solid cornflowerblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 80px;
+}

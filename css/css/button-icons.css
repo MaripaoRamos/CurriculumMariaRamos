@@ -1,0 +1,11 @@
+.button-icon{
+padding: 10px;
+border-radius: 4px;
+border:2px solid var(--purple);
+background: white;
+display: inline-block;/*se alinea verticalmente por ejemplo los iconos estaban sobre el boton de curriculum cuando se achicaba*/
+text-decoration: none;
+}
+.button-icon img{
+    vertical-align: middle;/*alinea la imagen*/
+}

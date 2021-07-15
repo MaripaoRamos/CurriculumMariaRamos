@@ -1,0 +1,38 @@
+.project{
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    gap: 32px;
+}
+
+.project-image img{
+    max-inline-size: 100%;
+}
+.project-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media screen and (min-width:768px){
+    .project{
+        display: flex;
+        align-items: center;
+        padding-block-start: 80px;
+        padding-block-end:80px ;
+    }
+.project-description{
+    /* border: 10px solid red; */
+    flex: 1;
+    text-align: center;
+}
+.project-image{
+   /* border:5px solid green; */
+   flex: 1;
+   text-align: center;
+}
+.project:nth-child(odd) .project-image{
+    /* border: 1px solid blue; */
+    order: 2;
+    flex: 1;/*PARA QUE OCUPE LA MITAD DEL CONTENEDOR*/
+    text-align: center;
+}
+}

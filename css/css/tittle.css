@@ -1,0 +1,15 @@
+.tittle{
+    /* border: 1px solid red;  */
+    align-self: flex-start;/*envuelve solo al titulo dentro de una caja aparte y no ocupa todo el ancho de la pagina */
+    background: var(--purple);
+    color:white;
+    font: var(--headline5);
+    padding-inline-start:8px ;
+    padding-inline-end: 8px;
+    padding-block-start: 4px;
+    padding-inline-end: 4px;
+    /* margin-inline-start: 4px;LE DIMOS ESTA PROPIEDAD PARA QUE ESTUVIERA ALINEADO AL WRAPPER,pero luego lo descartamos por que esa no era la idea del diseñador */
+    box-shadow: -4px 4px 0 var(--white);
+    text-decoration: none;
+
+}
